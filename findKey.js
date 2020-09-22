@@ -16,7 +16,7 @@ const assertEqual = function(actual, expected) {
 
 
  
-findKey({
+/*findKey({
   "Blue Hill": { stars: 1 },
   "Akaleri":   { stars: 3 },
   "noma":      { stars: 2 },
@@ -26,3 +26,5 @@ findKey({
 }, x => x.stars === 2)
 
 assertEqual(findKey(obj, key), true);
+*/
+module.exports = findKey;

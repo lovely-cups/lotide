@@ -27,3 +27,5 @@ const without = function(source, itemsToRemove){
     }                                
   return newArr;
 }
+
+module.exports = without;

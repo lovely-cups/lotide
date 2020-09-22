@@ -17,5 +17,6 @@ for (const num of str){
 }
 return letterResult;
 }
-const resultOf = countLetters("sassafrass");
-console.log(resultOf);
+
+
+module.exports =countLetters;
